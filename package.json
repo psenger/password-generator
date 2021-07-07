@@ -1,0 +1,24 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "generate a password, given parameters, and copy it to the clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://psenger@github.com/psenger/password-generator.git"
+  },
+  "author": "Philip A Senger <philip.a.senger@cngrgroup.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psenger/password-generator/issues"
+  },
+  "homepage": "https://github.com/psenger/password-generator#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
